@@ -22,12 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".FullscreenActivityDetectSignRoad"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen_activity_detect_sign_road"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name=".CameraActivity" />
 
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -48,9 +42,6 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="landscape"
             />
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"></activity>
     </application>
 
 </manifest>

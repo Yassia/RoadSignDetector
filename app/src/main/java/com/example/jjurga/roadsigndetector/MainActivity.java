@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         // Perform action on click
 
         //Intent intent = new Intent(this,FullscreenActivityDetectSignRoad.class );
-        //Intent intent = new Intent(this, CameraActivity.class);
         Intent intent = new Intent(this, camera.class);
                //EditText editText = (EditText) findViewById(R.id.edit_message);
                 //String message = editText.getText().toString();
